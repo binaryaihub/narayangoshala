@@ -1,0 +1,357 @@
+# ============================================
+# NARAYAN GOSHALA - Website Content
+# Edit this file to update all website text
+# ============================================
+
+# --- Site Info ---
+site:
+  name: "Narayan Goshala"
+  tagline: "Sacred Cow Shelter"
+  logo_initials: "NG"
+  description: "Narayan Goshala is dedicated to the protection, care, and welfare of cows. Join us in our mission to provide shelter, food, and medical care to abandoned and injured cows."
+  keywords:
+    - goshala
+    - cow protection
+    - cow shelter
+    - gaushala
+    - cow welfare
+    - donate for cows
+
+# --- Navigation ---
+nav:
+  links:
+    - href: "/"
+      label: "Home"
+    - href: "/about"
+      label: "About Us"
+    - href: "/gallery"
+      label: "Gallery"
+    - href: "/contact"
+      label: "Contact"
+  donate_button: "Donate Now"
+
+# --- Hero Section ---
+hero:
+  badge: "Serving Gau Mata Since Generations"
+  title_line1: "Narayan"
+  title_line2: "Goshala"
+  subtitle: "श्री नारायण गोशाला सेवा संस्थान रडु (चैनपुरा) धोरीमना आपका हार्दिक स्वागत करता है"
+  cta_primary: "Donate Now"
+  cta_secondary: "Learn More"
+
+# --- About Section (Homepage) ---
+about_section:
+  label: "About Us"
+  title_line1: "A Home for Every"
+  title_line2: "Sacred Cow"
+  paragraph1: "Narayan Goshala was founded with a simple yet profound mission: to provide unconditional love, care, and protection to every cow that comes to us. In our tradition, the cow is revered as Gau Mata - a symbol of selfless giving."
+  paragraph2: "We rescue abandoned, injured, and sick cows from the streets, provide them with medical treatment, nutritious food, and a safe shelter where they can live with dignity. Our dedicated team of veterinarians and caregivers works around the clock to ensure every cow receives the best possible care."
+  stats:
+    - number: "500+"
+      label: "Cows Sheltered"
+      icon: "Shield"
+    - number: "10+"
+      label: "Years of Service"
+      icon: "Heart"
+    - number: "50+"
+      label: "Acres of Land"
+      icon: "Leaf"
+    - number: "1000+"
+      label: "Donors & Volunteers"
+      icon: "Users"
+
+# --- Programs Section ---
+programs:
+  label: "What We Do"
+  title: "Our Programs & Services"
+  subtitle: "From rescue to rehabilitation, we provide comprehensive care to ensure every cow lives a healthy and peaceful life."
+  items:
+    - icon: "Heart"
+      title: "Cow Rescue"
+      description: "We rescue abandoned, injured, and sick cows from streets and bring them to our shelter for immediate care and rehabilitation."
+      color: "from-red-500 to-rose-500"
+    - icon: "Stethoscope"
+      title: "Medical Care"
+      description: "Our team of veterinarians provides round-the-clock medical treatment, regular health checkups, and emergency care."
+      color: "from-blue-500 to-cyan-500"
+    - icon: "HandHeart"
+      title: "Cow Adoption"
+      description: "Adopt a cow virtually and sponsor its food, shelter, and medical expenses. Receive regular updates about your adopted cow."
+      color: "from-primary to-primary-light"
+    - icon: "Milk"
+      title: "Organic Products"
+      description: "Pure and organic cow products including milk, ghee, gomutra, and gobar-based products prepared traditionally."
+      color: "from-amber-500 to-yellow-500"
+    - icon: "TreePine"
+      title: "Go-Van (Pasture)"
+      description: "Large green pastures and grazing grounds where cows roam freely, ensuring their natural lifestyle and happiness."
+      color: "from-secondary to-secondary-light"
+    - icon: "BookOpen"
+      title: "Community Awareness"
+      description: "Educational programs and workshops about cow welfare, importance of Gau Seva, and sustainable farming practices."
+      color: "from-purple-500 to-violet-500"
+
+# --- Impact Section ---
+impact:
+  label: "Our Impact"
+  title: "Making a Difference"
+  subtitle: "With your support, we have been able to make a significant impact in the lives of hundreds of cows."
+  items:
+    - icon: "Heart"
+      number: "2000+"
+      label: "Cows Rescued"
+      description: "Saved from streets and slaughterhouses"
+    - icon: "TrendingUp"
+      number: "500+"
+      label: "Cows Currently"
+      description: "Living happily in our shelter"
+    - icon: "Clock"
+      number: "24/7"
+      label: "Care Available"
+      description: "Round the clock medical support"
+    - icon: "Award"
+      number: "100%"
+      label: "Transparency"
+      description: "Every donation is accounted for"
+  cta_title: "Join Us in This Noble Cause"
+  cta_text: "Your contribution, no matter how small, can make a huge difference in the life of a cow. Every donation helps us provide food, shelter, and medical care."
+  cta_button: "Support Our Mission"
+
+# --- Testimonials ---
+testimonials:
+  label: "Testimonials"
+  title: "What People Say"
+  items:
+    - name: "Rajesh Sharma"
+      role: "Regular Donor"
+      content: "Narayan Goshala is doing an incredible job of protecting and caring for cows. I have been donating regularly and the transparency they maintain is commendable."
+      rating: 5
+    - name: "Priya Patel"
+      role: "Volunteer"
+      content: "Volunteering at Narayan Goshala has been a life-changing experience. The love and dedication of the team towards every single cow is truly inspiring."
+      rating: 5
+    - name: "Amit Kumar"
+      role: "Cow Adopter"
+      content: "I adopted a cow through their program and receive regular updates with photos. It brings me immense joy to know I am contributing to her well-being."
+      rating: 5
+
+# --- CTA Section ---
+cta:
+  title_line1: "Every Cow Needs"
+  title_line2: "Your Help"
+  text: "Whether you donate, volunteer, or spread the word, your support helps us continue our mission of cow protection. Join our family of compassionate souls."
+  primary_button: "Donate Now"
+  secondary_button: "Contact Us"
+
+# --- About Page ---
+about_page:
+  hero:
+    label: "About Us"
+    title: "Our Story"
+    subtitle: "Born from a deep reverence for Gau Mata, Narayan Goshala stands as a sanctuary of hope, healing, and unconditional love for cows."
+  mission:
+    title: "Our Mission"
+    text: "To rescue, shelter, and provide comprehensive care to abandoned, injured, and sick cows. We aim to create awareness about cow welfare and build a compassionate community dedicated to the protection of Gau Mata."
+  vision:
+    title: "Our Vision"
+    text: "A world where no cow is abandoned or harmed. We envision a future where every cow is treated with respect and dignity, where communities come together to protect these gentle beings, and where Gau Seva is a way of life."
+  values:
+    label: "Core Values"
+    title: "What Drives Us"
+    items:
+      - icon: "Heart"
+        title: "Compassion"
+        description: "Every living being deserves love and care. We treat each cow as a family member."
+      - icon: "Users"
+        title: "Community"
+        description: "We build a community of like-minded people who believe in the cause of cow protection."
+      - icon: "Award"
+        title: "Transparency"
+        description: "100% transparency in our operations. Every donation is accounted for and reported."
+      - icon: "Calendar"
+        title: "Commitment"
+        description: "We are committed to providing lifelong care to every cow that enters our shelter."
+  timeline:
+    label: "Our Journey"
+    title: "Timeline"
+    events:
+      - year: "2010"
+        title: "Foundation"
+        description: "Narayan Goshala was established with just 5 cows and a dream to protect every cow."
+      - year: "2013"
+        title: "First Expansion"
+        description: "Expanded our shelter to accommodate 100+ cows with proper medical facilities."
+      - year: "2016"
+        title: "Medical Center"
+        description: "Set up a fully equipped veterinary hospital within the goshala premises."
+      - year: "2019"
+        title: "Organic Initiative"
+        description: "Launched our organic products line - ghee, milk, and panchagavya products."
+      - year: "2022"
+        title: "Community Growth"
+        description: "Crossed 500+ cows in shelter with support from 1000+ regular donors."
+      - year: "2024"
+        title: "Digital Outreach"
+        description: "Launched cow adoption program and online donation portal for global supporters."
+
+# --- Gallery Page ---
+gallery_page:
+  hero:
+    label: "Gallery"
+    title: "Moments of Love"
+    subtitle: "Glimpses of the love, care, and joy that fills our goshala every day."
+  categories:
+    - "Daily Life"
+    - "Rescue"
+    - "Medical"
+    - "Events"
+  items:
+    - title: "Morning at the Shelter"
+      category: "Daily Life"
+      emoji: "🌅"
+    - title: "Feeding Time"
+      category: "Care"
+      emoji: "🌾"
+    - title: "Veterinary Checkup"
+      category: "Medical"
+      emoji: "🏥"
+    - title: "New Calf Born"
+      category: "New Life"
+      emoji: "🐮"
+    - title: "Green Pastures"
+      category: "Grounds"
+      emoji: "🌿"
+    - title: "Community Visit"
+      category: "Events"
+      emoji: "👨‍👩‍👧‍👦"
+    - title: "Gau Puja Ceremony"
+      category: "Spiritual"
+      emoji: "🙏"
+    - title: "Happy Cows Resting"
+      category: "Daily Life"
+      emoji: "🐄"
+    - title: "Rescue Operation"
+      category: "Rescue"
+      emoji: "🚑"
+
+# --- Donate Page ---
+donate_page:
+  hero:
+    label: "Support Us"
+    title: "Make a Donation"
+    subtitle: "Your generosity feeds, shelters, and heals. Every rupee you donate goes directly towards the welfare of our cows."
+  tiers_title: "Choose How You Help"
+  tiers_subtitle: "Select a donation amount or enter your own"
+  tiers:
+    - amount: "₹500"
+      label: "Feed a cow for a week"
+      emoji: "🌾"
+      popular: false
+    - amount: "₹2,000"
+      label: "Medical care for a month"
+      emoji: "💊"
+      popular: true
+    - amount: "₹5,000"
+      label: "Sponsor a cow for a month"
+      emoji: "🐄"
+      popular: false
+    - amount: "₹10,000"
+      label: "Full care for 3 months"
+      emoji: "🏠"
+      popular: false
+    - amount: "₹25,000"
+      label: "Annual cow adoption"
+      emoji: "❤️"
+      popular: false
+    - amount: "Custom"
+      label: "Enter your own amount"
+      emoji: "✨"
+      popular: false
+  bank_details:
+    title: "Bank Transfer Details"
+    account_name: "श्री नारायण गोशाला सेवा संस्थान"
+    account_number: "48550100017121"
+    ifsc_code: "BARB0DHORIM"
+    bank_name: "Bank of Baroda"
+    branch: "Dhorimana"
+    upi_id: "narayan@goshala"
+    payment_note: "GPay / PhonePe accepted"
+  donor_benefits:
+    title: "Donor Benefits"
+    items:
+      - "Tax exemption under Section 80G"
+      - "Regular updates about your contribution's impact"
+      - "Certificate of appreciation"
+      - "Invitation to goshala events"
+      - "Name on our donor wall"
+      - "Monthly newsletter with cow stories"
+  trust_banner:
+    title: "100% Transparent & Tax Exempt"
+    text: "Narayan Goshala is a registered trust. All donations are eligible for tax exemption under Section 80G of the Income Tax Act. We publish regular audited accounts for complete transparency."
+
+# --- Contact Page ---
+contact_page:
+  hero:
+    label: "Get in Touch"
+    title: "Contact Us"
+    subtitle: "Have questions? Want to visit? Want to volunteer? We'd love to hear from you."
+  form:
+    title: "Send a Message"
+    subtitle: "Fill out the form below and we'll respond as soon as possible."
+    subjects:
+      - "General Inquiry"
+      - "Donation Related"
+      - "Cow Adoption"
+      - "Volunteer"
+      - "Visit Request"
+      - "Other"
+    success_title: "Message Sent!"
+    success_text: "Thank you for reaching out. We will get back to you within 24 hours."
+  info:
+    title: "We're Here to Help"
+    address:
+      title: "Visit Us"
+      lines:
+        - "श्री नारायण गोशाला सेवा संस्थान"
+        - "रडु (चैनपुरा), धोरीमना"
+    phone:
+      title: "Call Us"
+      numbers:
+        - "+91 98765 43210"
+        - "+91 98765 43211"
+    email:
+      title: "Email Us"
+      addresses:
+        - "Shrinarayangosalasansthan@gmail.com"
+    hours:
+      title: "Visiting Hours"
+      schedule:
+        - "Mon - Sat: 7:00 AM - 6:00 PM"
+        - "Sunday: 8:00 AM - 4:00 PM"
+
+# --- Footer ---
+footer:
+  description: "Dedicated to the protection, care, and welfare of cows. Every life matters, every cow deserves love and shelter."
+  quick_links:
+    - href: "/"
+      label: "Home"
+    - href: "/about"
+      label: "About Us"
+    - href: "/gallery"
+      label: "Gallery"
+    - href: "/donate"
+      label: "Donate"
+    - href: "/contact"
+      label: "Contact"
+  services:
+    - "Cow Rescue & Shelter"
+    - "Medical Treatment"
+    - "Cow Adoption Program"
+    - "Organic Products"
+    - "Community Education"
+  contact:
+    address: "श्री नारायण गोशाला सेवा संस्थान, रडु (चैनपुरा), धोरीमना"
+    phone: "+91 98765 43210"
+    email: "Shrinarayangosalasansthan@gmail.com"
+  copyright_suffix: "Narayan Goshala. All rights reserved."
+  tagline: "Made with ❤️ for Gau Seva"

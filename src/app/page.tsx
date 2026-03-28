@@ -1,65 +1,64 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import AboutSection from "@/components/AboutSection";
+import Programs from "@/components/Programs";
+import Impact from "@/components/Impact";
+import Testimonials from "@/components/Testimonials";
+import CTA from "@/components/CTA";
+import { get } from "@/lib/content";
 
 export default function Home() {
+  const hero = get<Record<string, string>>("hero");
+  const about = get<Record<string, unknown>>("about_section");
+  const programs = get<Record<string, unknown>>("programs");
+  const impact = get<Record<string, unknown>>("impact");
+  const testimonials = get<Record<string, unknown>>("testimonials");
+  const cta = get<Record<string, string>>("cta");
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <Hero
+        badge={hero.badge}
+        titleLine1={hero.title_line1}
+        titleLine2={hero.title_line2}
+        subtitle={hero.subtitle}
+        ctaPrimary={hero.cta_primary}
+        ctaSecondary={hero.cta_secondary}
+      />
+      <AboutSection
+        label={about.label as string}
+        titleLine1={about.title_line1 as string}
+        titleLine2={about.title_line2 as string}
+        paragraph1={about.paragraph1 as string}
+        paragraph2={about.paragraph2 as string}
+        stats={about.stats as { number: string; label: string; icon: string }[]}
+      />
+      <Programs
+        label={programs.label as string}
+        title={programs.title as string}
+        subtitle={programs.subtitle as string}
+        items={programs.items as { icon: string; title: string; description: string; color: string }[]}
+      />
+      <Impact
+        label={impact.label as string}
+        title={impact.title as string}
+        subtitle={impact.subtitle as string}
+        items={impact.items as { icon: string; number: string; label: string; description: string }[]}
+        ctaTitle={impact.cta_title as string}
+        ctaText={impact.cta_text as string}
+        ctaButton={impact.cta_button as string}
+      />
+      <Testimonials
+        label={testimonials.label as string}
+        title={testimonials.title as string}
+        items={testimonials.items as { name: string; role: string; content: string; rating: number }[]}
+      />
+      <CTA
+        titleLine1={cta.title_line1}
+        titleLine2={cta.title_line2}
+        text={cta.text}
+        primaryButton={cta.primary_button}
+        secondaryButton={cta.secondary_button}
+      />
+    </>
   );
 }
